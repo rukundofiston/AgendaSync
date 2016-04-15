@@ -1,0 +1,11 @@
+cd bin/
+rmic agenda.AgendaImpl
+start rmiregistry
+
+Executer la classe serveur dans le package agenda
+Executer ensuite le login dans le package view
+
+1. Importer la base des données dans une base de données nommée "agendasync"
+2. Importer le projet sous eclipse
+3. Build project pour créer les bin/
+4. rmic agenda.ServeurImp
